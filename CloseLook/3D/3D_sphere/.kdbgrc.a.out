@@ -1,0 +1,37 @@
+[Breakpoint 0]
+Enabled=true
+File=main_eta_check.cpp
+Line=311
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=main.cpp
+Line=590
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0
+
+[Watches]
+Expr0=MGsize[1]
+Expr1=MGsize[9]
+Expr10=inds[pos+indc*size3]
+Expr2=MGsize[90]
+Expr3=eta[i+jn+kn+0*size3]
+Expr4=eta[i+jn+kn+1*size3]
+Expr5=eta[i+jn+kn+2*size3]
+Expr6=eta[i+jn+kn+size2+0*size3]
+Expr7=eta[i+jn+kn+size2+1*size3]
+Expr8=minind
+Expr9=eta[pos+minind*size3]

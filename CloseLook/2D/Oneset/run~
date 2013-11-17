@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+rm onset.out
+g++ -O4 main.cpp -o onset.out
+echo "new compilation has been done"
+## Pz will be divided by 1000 in the program
+Pz=50
+dirstring="/media/disk/sim_res/Circ_Friction_cpp/onset/Pz$Pz/"
+mkdir $dirstring
+## this is radius of the circle in pixel size
+for i in 30 20 
+  do
+    mkdir $dirstring$i 
+    echo "running simulation for r=$i "
+    ./onset.out $i $Pz
+ done
+
+

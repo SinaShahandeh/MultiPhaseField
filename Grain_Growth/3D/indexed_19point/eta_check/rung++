@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+
+rm a.out
+g++ -O4 main.cpp
+echo "---new compilation has been done"
+dirstring="/home/cenna/Results/3D/sdfsdfsdfd/"
+mkdir $dirstring
+
+cp main.cpp $dirstring
+
+./a.out $dirstring
+ 
+

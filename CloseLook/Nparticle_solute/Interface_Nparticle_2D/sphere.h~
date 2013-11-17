@@ -1,0 +1,8 @@
+#ifndef SPHEREDEF
+#define SPHEREDEF
+
+#include <math.h>
+
+double *sphere(int radius);
+
+#endif

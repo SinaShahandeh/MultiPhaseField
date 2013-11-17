@@ -1,0 +1,16 @@
+#!/bin/sh
+ 
+rm Nparticle_hex.out
+# icpc -O3 -openmp -o Nparticle.out main.cpp
+# echo "---new compilation has been done"
+
+# compiling on magnetserver
+ source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+icpc -O3 -o Nparticle_hex.out main_hex.cpp
+# icpc -O3 -o Nparticle.out main.cpp
+#qsub run.pbs
+#mkdir $dirstring
+# 
+ 
+# if you want to run the compiled code without submitting to the qsub.
+ ./Nparticle_hex.out hex_input

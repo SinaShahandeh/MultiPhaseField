@@ -1,0 +1,12 @@
+#!/bin/sh
+
+rm indexed.out
+g++ -O3 main.cpp -o indexed.out
+
+dirstring="/home/cenna/Results/2Dclose/circ_solute/circ_m2_k4_indexed/b4000/"
+mkdir $dirstring
+cp main.cpp $dirstring
+
+
+./indexed.out $dirstring 
+

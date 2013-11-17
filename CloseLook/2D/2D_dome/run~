@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+g++ -O4 main.cpp -o Dome_Friction
+echo "new compilation has been done"
+
+for i in 5    10    15    20    25    30    35    40    45    50    55    60    65    70    75    80
+  do
+    mkdir /media/disk/sim_res/Dome_Friction_cpp/$i 
+    echo "running simulation for r=$i "
+    ./Dome_Friction $i
+ done

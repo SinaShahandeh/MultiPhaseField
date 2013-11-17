@@ -1,0 +1,25 @@
+#!/bin/sh 
+#PBS -j oe
+ 
+scratch=/tmp
+cd $PBS_O_WORKDIR
+CURR_DIR=`pwd`
+USERID=`whoami`
+JOB_OUTPUT=RESULTS 
+echo 'Current working directory is "'$CURR_DIR'"'
+echo "Running on `hostname`"
+echo "Starting run at: `date`"
+ 
+
+# Create the tmp directory and make current.
+# this is a directory that program will save the simulation results.
+dirstring="/tmp/cenna//"
+mkdir $dirstring
+cd $dirstring
+#Copy the files required to run from the main directory
+cp $CURR_DIR/sphere3D.out $dirstring
+cp $CURR_DIR/main.cpp  $dirstring
+ 
+./sphere3D.out $dirstring
+ 
+echo "Job Finihed"

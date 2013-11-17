@@ -1,0 +1,9 @@
+
+#ifndef PERIBCDEF
+#define PERIBCDEF
+
+#include <math.h>
+
+int peribc(int inindex, int& size);
+
+#endif

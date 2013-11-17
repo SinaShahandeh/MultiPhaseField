@@ -1,0 +1,22 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+rm diamond
+g++ -O4 main.cpp -o diamond
+echo "new compilation has been done"
+## Pz will be divided by 1000 in the program
+dirsave="/home/cenna/Results/2Dclose/diamond_Fric/K_test/"
+for Pz in 5
+do 
+dirstring="$dirsave""Pz""$Pz/"
+echo "Data will be saved in $dirstring"
+mkdir $dirstring
+
+## this is radius of the circle in pixel size
+for r in 20
+  do
+    mkdir $dirstring$i 
+    echo "running simulation for r=$i "
+    ./diamond $r $Pz $dirsave
+ done
+done
+

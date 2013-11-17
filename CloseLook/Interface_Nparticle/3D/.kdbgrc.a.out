@@ -1,0 +1,46 @@
+[Breakpoint 0]
+Enabled=true
+File=main_BoundaryPush.cpp
+Line=539
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=main_curvature.cpp
+Line=538
+Temporary=false
+
+[Breakpoint 2]
+Enabled=true
+File=main.cpp
+Line=250
+Temporary=false
+
+[Breakpoint 3]
+Enabled=true
+File=main.cpp
+Line=35
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=large_input 0 0
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0
+
+[Watches]
+Expr0=inp1
+Expr1=ii+i
+Expr2=sphi[(i+Pr)+(j+Pr)*2*Pr+(k+Pr)*2*Pr*2*Pr]
+Expr3=matsphe[i+j*2*radius+k*2*radius*2*radius]
+Expr4=((del2-grad2eta)/gradeta)
+Expr5=K[i+jn+kn+pnn]
+Expr6=tn
+Expr7=ME[i+jn+kn]

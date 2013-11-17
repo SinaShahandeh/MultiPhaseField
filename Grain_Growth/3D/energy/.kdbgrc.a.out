@@ -1,0 +1,59 @@
+[Breakpoint 0]
+Enabled=true
+File=readstructure.cpp
+Line=16
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=readstructure.cpp
+Line=16
+Temporary=false
+
+[Breakpoint 2]
+Enabled=true
+File=readstructure.cpp
+Line=16
+Temporary=false
+
+[Breakpoint 3]
+Enabled=true
+File=readstructure.cpp
+Line=49
+Temporary=false
+
+[Breakpoint 4]
+Enabled=true
+File=readstructure.cpp
+Line=49
+Temporary=false
+
+[Breakpoint 5]
+Enabled=true
+File=readstructure.cpp
+Line=49
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=/home/magnetadmin/Documents/Results/3D/Big/20/input.txt 1000
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0
+
+[Watches]
+Expr0=eta[i+jn+kn+psnj*size3]
+Expr1=eta[i+jn+kn+psni*size3]
+Expr2=inds[3000]
+Expr3=getline( infile, aline)
+Expr4=aline
+Expr5=aline[0]
+Expr6=aline[0][0]
+Expr7=ss
+Expr8=ss[0]

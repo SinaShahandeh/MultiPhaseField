@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+rm Circ_Friction
+g++ -O4 main.cpp -o Circ_Friction
+echo "new compilation has been done"
+## Pz will be divided by 1000 in the program
+for Pz in 0 
+do 
+dirstring="/media/disk/sim_res/Circ_Friction_cpp/Pz$Pz/"
+mkdir $dirstring
+## this is radius of the circle in pixel size
+for i in 100
+  do
+    mkdir $dirstring$i 
+    echo "running simulation for r=$i "
+    ./Circ_Friction $i $Pz
+ done
+done
+

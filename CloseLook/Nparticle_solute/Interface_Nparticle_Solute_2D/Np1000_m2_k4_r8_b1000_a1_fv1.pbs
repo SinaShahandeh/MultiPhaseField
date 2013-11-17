@@ -1,0 +1,29 @@
+#PBS -l walltime=0:10:00:00
+#PBS -l mem=5GB 
+#PBS -l nodes=1:ppn=1 
+ 
+#PBS -m bea 
+#PBS -j oe 
+#PBS -N Np1000_m2_k4_r8_b10001_DelG1
+ 
+cd $PBS_O_WORKDIR 
+CURR_DIR=`pwd` 
+USERID=`whoami` 
+JOB_OUTPUT=RESULTS 
+echo 'Current working directory is "'$CURR_DIR'"' 
+echo "Running on `hostname`" 
+echo "Starting run at: `date`" 
+var1=1
+var2=1
+jobname="Np1000_m2_k4_r8_b1000_fv${var1}_DelG${var2}" 
+echo $jobname 
+echo "---------------------" 
+dirscratch="/global/scratch/ssina/Np/${jobname}/" 
+mkdir $dirscratch 
+cd $dirscratch
+ echo `pwd`
+cp $CURR_DIR/Nparticle.out $dirscratch 
+cp $CURR_DIR/main.cpp  $dirscratch
+cp $CURR_DIR/Np1000_m2_k4_r8_b1000 $dirscratch
+mv Np1000_m2_k4_r8_b1000 $jobname
+./Nparticle.out "$jobname" $var1 $var2 

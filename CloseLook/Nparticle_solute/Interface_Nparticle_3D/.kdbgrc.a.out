@@ -1,0 +1,46 @@
+[Breakpoint 0]
+Enabled=true
+File=main_big_iter.cpp
+Line=411
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=main.cpp
+Line=423
+Temporary=false
+
+[Breakpoint 2]
+Enabled=true
+File=main.cpp
+Line=351
+Temporary=false
+
+[Breakpoint 3]
+Enabled=true
+File=main_simple.cpp
+Line=64
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=Np300_m2_k4_r5 500 0
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0
+
+[Watches]
+Expr0=vol>(0.08)*size3
+Expr1=pastvol-newvol>0.01
+Expr2=vol>(0.08)*size3 && pastvol-newvol>0.01
+Expr3=(detadtM+gamma*sumtermp+epsilon*eta2[i+jn+kn+pnn]*ppf[i+jn+kn]+3*eta2[i+jn+kn+pnn]*(1-eta2[i+jn+kn+pnn])*(-G[pn]+Ps))
+Expr4=detadtM+gamma*sumtermp+epsilon*eta2[i+jn+kn+pnn]*ppf[i+jn+kn]
+Expr5=eta2[i+jn+kn+pnn]
+Expr6=error
+Expr7=eta2[inplus1+jn+kn+pnn]

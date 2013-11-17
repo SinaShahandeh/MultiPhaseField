@@ -1,0 +1,14 @@
+ 
+#!/bin/sh
+
+rm benchmark.out
+source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+icpc -O3 -openmp -o benchmark.out main.cpp
+#g++ -O3  -o benchmark.out main.cpp
+echo "---new compilation has been done"
+
+dirstring="input.txt"
+# mkdir $dirstring
+# cp main.cpp $dirstring
+./benchmark.out $dirstring
+ 

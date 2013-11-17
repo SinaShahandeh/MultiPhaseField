@@ -1,0 +1,58 @@
+-------------- Inpput file for Recrystallization Simulations ------------
+
+Saving directory **********************:
+/home/magnetadmin/Documents/Results/3D_hex/Np300_m1_k2_r10_fv0.05_hex380_3/
+
+System size in x direction (grid points):
+380
+
+System size in y direction (grid points): 
+300
+
+System size in z direction (grid points):
+264
+
+Delta x:
+1
+
+Threshold value for choosing active nodes:
+0.0000001
+
+Delta t:
+0.05
+
+Initiation time steps:
+1000
+
+Total number of time steps to finish calculation:
+10000
+
+Sequence of time steps which the results is written on hard disk:
+2000
+
+Sequence of time steps which full eta and inds results is written on hard disk:
+1000000
+
+Model parameter "L" (kinetic coefficient):
+1
+
+Model parameter "m" (height of the peak in the energy well):
+1
+
+Model parameter "kappa" (gradient coefficient):
+2
+
+Model parameter "epsilon" (for particle):
+10
+
+Particles radius (in pixel):
+10
+
+Particles fraction: 
+0.050
+
+Driving force for interface movement (Delta G):
+0
+
+Geometry of the system (1=flat grain boundary) (2=dome shape grain boundary, radius spefified inside the main.cpp), (3=hexagonal columnar grains):
+3

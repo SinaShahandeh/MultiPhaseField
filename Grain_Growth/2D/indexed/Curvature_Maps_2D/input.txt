@@ -1,0 +1,50 @@
+-------------- Inpput file for Recrystallization Simulations ------------
+
+Saving directory **********************:
+/home/cenna/Results/2D/Fric800s2_m1_k4/0/
+
+System size in x direction (grid points):
+1600
+
+System size in y direction (grid points):
+1600
+
+System size in z direction (grid points):
+1
+
+Delta x:
+1
+
+Threshold value for choosing active nodes:
+0.00001
+
+Delta t:
+0.1
+
+Initiation time steps:
+0
+
+Total number of time steps to finish calculation:
+400000
+
+Sequence of time steps which the results is written on hard disk:
+0
+
+Sequence of time steps which full eta and inds results is written on hard disk:
+2000
+
+Model parameter "L" (kinetic coefficient):
+1
+
+Model parameter "m" (height of the peak in the energy well):
+1
+
+Model parameter "kappa" (gradient coefficient):
+4
+
+Pinning pressure:
+0.0
+
+Resume time step:
+2000
+

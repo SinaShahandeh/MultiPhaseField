@@ -1,0 +1,13 @@
+#!/bin/sh
+ 
+rm Friction.out
+icc -O3 -openmp -o Friction.out main.cpp
+echo "---new compilation has been done"
+ 
+#dirstring="/tmp/cenna/sphere3D_Pz0/"
+#mkdir $dirstring
+# 
+#cp main.cpp $dirstring
+ 
+# if you want to run the compiled code without submitting to the qsub.
+#./sphere3D.out $dirstring

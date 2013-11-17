@@ -1,0 +1,13 @@
+ 
+#!/bin/sh
+
+rm a.out
+g++ -O4 main.cpp
+echo "---new compilation has been done"
+dirstring="/home/cenna/Results/3DClose/curve_test/"
+mkdir $dirstring
+
+cp main.cpp $dirstring
+
+./a.out $dirstring
+

@@ -1,0 +1,26 @@
+[Breakpoint 0]
+Enabled=true
+File=main.cpp
+Line=148
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=/home/cenna/Results/test/
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0
+
+[Watches]
+Expr0=inds[pos+0*size3]
+Expr1=repbool[pos+indc*size3]
+Expr2=inds[pos+indc*size3]
+Expr3=eta[pos+indc*size3]
+Expr4=mbool[pos+minind*size3]
+Expr5=eta[pos+minind*size3]

@@ -1,0 +1,4869 @@
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 13:18:37 PST 2011
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/': File exists
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.104574
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.08seconds. 
+Initial volume is:759489
+The volume at 5000 is: 154356
+Final volume is:154356
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/90/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.09
+Actual particles volume fraction = 0.105622
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.08seconds. 
+Initial volume is:753793
+The volume at 5000 is: 222527
+Final volume is:222527
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/80/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.08
+Actual particles volume fraction = 0.104984
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.09seconds. 
+Initial volume is:756416
+The volume at 5000 is: 294240
+Final volume is:294240
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/70/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.07
+Actual particles volume fraction = 0.104063
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.09seconds. 
+Initial volume is:753439
+Terminated
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 13:33:31 PST 2011
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/': File exists
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.10477
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:757127
+Terminated
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 13:34:08 PST 2011
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/': File exists
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.104278
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:751992
+The volume at 5000 is: 156638
+Final volume is:156638
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/90/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/90/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.09
+Actual particles volume fraction = 0.103981
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.12seconds. 
+Initial volume is:752716
+The volume at 5000 is: 215995
+Final volume is:215995
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/80/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/80/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.08
+Actual particles volume fraction = 0.104326
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.08seconds. 
+Initial volume is:756319
+The volume at 5000 is: 285762
+Final volume is:285762
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/70/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/70/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.07
+Actual particles volume fraction = 0.104743
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.08seconds. 
+Initial volume is:756230
+The volume at 5000 is: 344176
+Final volume is:344176
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/60/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.06
+Actual particles volume fraction = 0.105433
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.09seconds. 
+Initial volume is:754323
+The volume at 5000 is: 433890
+Final volume is:433890
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/50/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.05
+Actual particles volume fraction = 0.104452
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:752017
+The volume at 5000 is: 493478
+Final volume is:493478
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/40/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.04
+Actual particles volume fraction = 0.105888
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.08seconds. 
+Initial volume is:753008
+The volume at 5000 is: 547001
+Final volume is:547001
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/30/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.03
+Actual particles volume fraction = 0.104687
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:755142
+The volume at 5000 is: 611961
+Final volume is:611961
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.1/20/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.1
+Driving force for interface movement (Delta G):0.02
+Actual particles volume fraction = 0.105862
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:755649
+The volume at 5000 is: 715598
+Final volume is:715598
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 14:08:38 PST 2011
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.053717
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:818973
+Final volume is:818497
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/90/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.09
+Actual particles volume fraction = 0.053721
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.05seconds. 
+Initial volume is:823906
+Final volume is:823509
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/80/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.08
+Actual particles volume fraction = 0.053742
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.03seconds. 
+Initial volume is:822224
+Final volume is:821862
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/70/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.07
+Actual particles volume fraction = 0.05434
+Initialization ended.
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 14:10:00 PST 2011
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/': File exists
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/100/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.054314
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:823780
+Final volume is:823347
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/90/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/90/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.09
+Actual particles volume fraction = 0.054103
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:819010
+Final volume is:818584
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/80/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/80/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.08
+Actual particles volume fraction = 0.053922
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:818794
+Final volume is:818422
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/70/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/70/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.07
+Actual particles volume fraction = 0.053398
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:818966
+Final volume is:818639
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/60/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.06
+Actual particles volume fraction = 0.054464
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:821038
+Final volume is:820761
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/50/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.05
+Actual particles volume fraction = 0.05299
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:822052
+Final volume is:821827
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/40/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.04
+Actual particles volume fraction = 0.054196
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.05seconds. 
+Initial volume is:820617
+Final volume is:820444
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/30/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.03
+Actual particles volume fraction = 0.053603
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.05seconds. 
+Initial volume is:819913
+Final volume is:819772
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/20/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.02
+Actual particles volume fraction = 0.054208
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.05seconds. 
+Initial volume is:817199
+Final volume is:817099
+Current working directory is "/home/magnetadmin/Documents/Sina/Dropbox/Codes/CloseLook/Interface_Nparticle/Interface_Nparticle_3D"
+Running on magnetserver
+Starting run at: Wed Nov 30 15:10:30 PST 2011
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/': File exists
+/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/100/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/100/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.1
+Actual particles volume fraction = 0.05422
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.03seconds. 
+Initial volume is:818270
+The volume at 5000 is: 161048
+Final volume is:79987.9
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/90/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/90/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.09
+Actual particles volume fraction = 0.053772
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:820754
+The volume at 5000 is: 228740
+Final volume is:79919
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/80/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/80/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.08
+Actual particles volume fraction = 0.053959
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.02seconds. 
+Initial volume is:818013
+The volume at 5000 is: 301996
+Final volume is:79940.5
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/70/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/70/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.07
+Actual particles volume fraction = 0.053582
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:819800
+The volume at 5000 is: 372712
+Final volume is:79935.8
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/60/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/60/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.06
+Actual particles volume fraction = 0.054139
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.03seconds. 
+Initial volume is:823684
+The volume at 5000 is: 447656
+Final volume is:79936.8
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/50/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/50/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.05
+Actual particles volume fraction = 0.053917
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.04seconds. 
+Initial volume is:822271
+The volume at 5000 is: 513661
+The volume at 10000 is: 214081
+Final volume is:79993.2
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/40/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/40/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.04
+Actual particles volume fraction = 0.053841
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.03seconds. 
+Initial volume is:817596
+The volume at 5000 is: 572012
+The volume at 10000 is: 325359
+The volume at 15000 is: 104399
+Final volume is:79958.9
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/30/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/30/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.03
+Actual particles volume fraction = 0.053755
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.07seconds. 
+Initial volume is:817195
+The volume at 5000 is: 666930
+The volume at 10000 is: 496423
+The volume at 15000 is: 340893
+The volume at 20000 is: 207893
+Final volume is:79960.6
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/20/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3DClose/Np100_m1_k2_r5_fv0.05/20/
+System size in x direction (grid points):100
+System size in y direction (grid points):100
+System size in z direction (grid points):100
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:100
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:5000
+Sequence of time steps which full eta and inds results is written on hard disk:20000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):5
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.02
+Actual particles volume fraction = 0.053753
+Initialization ended.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+time required for 10 time steps:3.03seconds. 
+Initial volume is:821532
+The volume at 5000 is: 728858
+The volume at 10000 is: 662013
+The volume at 15000 is: 597231
+The volume at 20000 is: 520933
+The volume at 25000 is: 433850
+The volume at 30000 is: 328734
+The volume at 35000 is: 229771
+The volume at 40000 is: 118146
+Final volume is:79981.9
+rm: cannot remove `Nparticle_hex.out': No such file or directory
+./hex_compile: 8: source: not found
+main_hex.cpp(295): warning #161: unrecognized #pragma
+        #pragma omp parallel for
+                ^
+
+main_hex.cpp(388): warning #161: unrecognized #pragma
+        #pragma omp parallel for
+                ^
+
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3D_hex/Np300_m1_k2_r10_fv0.05_hex380_2//
+System size in x direction (grid points):380
+System size in y direction (grid points): 300
+System size in z direction (grid points):264
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:1000
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:2000
+Sequence of time steps which full eta and inds results is written on hard disk:1000000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):15
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0
+Geometry of the system (1=flat grain boundary) (2=dome shape grain boundary, radius spefified inside the main.cpp), (3=hexagonal columnar grains):3
+Actual particles volume fraction = 0.048072
+Initialization ended.
+time required for 10 time steps:2399.37seconds. 
+Initial volume is:4.86508e+06
+The volume at 2000 is: 4.82059e+06
+The volume at 4000 is: 5.00513e+06
+The volume at 6000 is: 5.16994e+06
+The volume at 8000 is: 5.32585e+06
+The volume at 10000 is: 5.48559e+06
+./hex_compile: 8: source: not found
+main_hex.cpp(295): warning #161: unrecognized #pragma
+        #pragma omp parallel for
+                ^
+
+main_hex.cpp(388): warning #161: unrecognized #pragma
+        #pragma omp parallel for
+                ^
+
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/3D_hex/Np300_m1_k2_r10_fv0.05_hex380_3//
+System size in x direction (grid points):380
+System size in y direction (grid points): 300
+System size in z direction (grid points):264
+Delta x:1
+Threshold value for choosing active nodes:1e-07
+Delta t:0.05
+Initiation time steps:1000
+Total number of time steps to finish calculation:10000
+Sequence of time steps which the results is written on hard disk:2000
+Sequence of time steps which full eta and inds results is written on hard disk:1000000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):1
+Model parameter "kappa" (gradient coefficient):2
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):10
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0
+Geometry of the system (1=flat grain boundary) (2=dome shape grain boundary, radius spefified inside the main.cpp), (3=hexagonal columnar grains):3
+Actual particles volume fraction = 0.0482522
+Initialization ended.
+The volume at 12000 is: 5.65152e+06
+The volume at 14000 is: 5.81733e+06
+time required for 10 time steps:2911.19seconds. 
+Initial volume is:4.86508e+06
+The volume at 16000 is: 5.98524e+06
+The volume at 2000 is: 4.95652e+06
+The volume at 18000 is: 6.15617e+06
+The volume at 4000 is: 5.17886e+06
+The volume at 20000 is: 6.33382e+06
+The volume at 6000 is: 5.37953e+06
+The volume at 22000 is: 6.51348e+06
+The volume at 8000 is: 5.57217e+06
+The volume at 24000 is: 6.69738e+06
+The volume at 10000 is: 5.75144e+06
+The volume at 26000 is: 6.87867e+06
+The volume at 12000 is: 5.91441e+06
+The volume at 28000 is: 7.0481e+06
+The volume at 14000 is: 6.07328e+06
+The volume at 30000 is: 7.20337e+06
+The volume at 16000 is: 6.22502e+06
+The volume at 32000 is: 7.3443e+06
+The volume at 18000 is: 6.36985e+06
+The volume at 34000 is: 7.48176e+06
+The volume at 20000 is: 6.51324e+06
+The volume at 36000 is: 7.62186e+06
+The volume at 22000 is: 6.64575e+06
+The volume at 38000 is: 7.76031e+06
+The volume at 24000 is: 6.76776e+06
+The volume at 40000 is: 7.89362e+06
+The volume at 26000 is: 6.88578e+06
+The volume at 42000 is: 8.03391e+06
+The volume at 28000 is: 7.00337e+06
+The volume at 44000 is: 8.16707e+06
+The volume at 30000 is: 7.116e+06
+The volume at 46000 is: 8.29751e+06
+The volume at 32000 is: 7.22301e+06
+The volume at 48000 is: 8.44176e+06
+The volume at 34000 is: 7.33106e+06
+The volume at 50000 is: 8.5949e+06
+The volume at 36000 is: 7.44431e+06
+The volume at 52000 is: 8.75333e+06
+The volume at 38000 is: 7.55903e+06
+The volume at 54000 is: 8.90971e+06
+The volume at 40000 is: 7.68329e+06
+The volume at 56000 is: 9.06844e+06
+The volume at 42000 is: 7.82272e+06
+The volume at 58000 is: 9.2303e+06
+The volume at 44000 is: 7.97619e+06
+The volume at 60000 is: 9.38684e+06
+The volume at 46000 is: 8.13237e+06
+The volume at 62000 is: 9.54147e+06
+The volume at 48000 is: 8.3045e+06
+The volume at 64000 is: 9.69319e+06
+The volume at 50000 is: 8.47076e+06
+The volume at 66000 is: 9.8422e+06
+The volume at 52000 is: 8.62566e+06
+The volume at 68000 is: 9.99026e+06
+The volume at 54000 is: 8.78904e+06
+The volume at 70000 is: 1.01376e+07
+The volume at 56000 is: 8.93962e+06
+The volume at 72000 is: 1.02853e+07
+The volume at 58000 is: 9.07873e+06
+The volume at 74000 is: 1.04466e+07
+The volume at 60000 is: 9.20969e+06
+The volume at 76000 is: 1.06013e+07
+The volume at 62000 is: 9.32681e+06
+The volume at 78000 is: 1.07495e+07
+The volume at 64000 is: 9.43481e+06
+The volume at 80000 is: 1.0905e+07
+The volume at 66000 is: 9.52917e+06
+The volume at 82000 is: 1.10648e+07
+The volume at 68000 is: 9.61347e+06
+The volume at 84000 is: 1.12209e+07
+The volume at 70000 is: 9.69302e+06
+The volume at 86000 is: 1.13922e+07
+The volume at 72000 is: 9.77443e+06
+The volume at 88000 is: 1.15705e+07
+The volume at 74000 is: 9.85352e+06
+The volume at 90000 is: 1.17483e+07
+The volume at 92000 is: 1.19463e+07
+The volume at 76000 is: 9.93239e+06
+The volume at 94000 is: 1.21318e+07
+The volume at 78000 is: 1.00168e+07
+The volume at 96000 is: 1.23083e+07
+The volume at 80000 is: 1.01078e+07
+The volume at 98000 is: 1.24673e+07
+The volume at 82000 is: 1.02054e+07
+The volume at 100000 is: 1.2613e+07
+The volume at 84000 is: 1.0297e+07
+The volume at 102000 is: 1.27584e+07
+The volume at 86000 is: 1.03773e+07
+The volume at 104000 is: 1.29129e+07
+The volume at 88000 is: 1.04451e+07
+The volume at 106000 is: 1.30627e+07
+The volume at 90000 is: 1.0511e+07
+The volume at 108000 is: 1.32058e+07
+The volume at 92000 is: 1.05692e+07
+The volume at 110000 is: 1.33444e+07
+The volume at 94000 is: 1.06217e+07
+The volume at 112000 is: 1.34915e+07
+The volume at 96000 is: 1.06722e+07
+The volume at 114000 is: 1.3631e+07
+The volume at 98000 is: 1.07254e+07
+The volume at 116000 is: 1.37652e+07
+The volume at 100000 is: 1.07851e+07
+The volume at 118000 is: 1.38957e+07
+The volume at 102000 is: 1.08482e+07
+The volume at 120000 is: 1.40167e+07
+The volume at 104000 is: 1.09199e+07
+The volume at 122000 is: 1.41333e+07
+The volume at 106000 is: 1.09942e+07
+The volume at 124000 is: 1.4248e+07
+The volume at 108000 is: 1.10778e+07
+The volume at 126000 is: 1.43592e+07
+The volume at 110000 is: 1.11647e+07
+The volume at 128000 is: 1.44615e+07
+The volume at 112000 is: 1.12424e+07
+The volume at 130000 is: 1.4557e+07
+The volume at 114000 is: 1.13172e+07
+The volume at 132000 is: 1.4647e+07
+The volume at 116000 is: 1.13948e+07
+The volume at 134000 is: 1.4735e+07
+The volume at 118000 is: 1.14748e+07
+The volume at 136000 is: 1.48227e+07
+The volume at 120000 is: 1.15571e+07
+The volume at 138000 is: 1.49099e+07
+The volume at 122000 is: 1.16478e+07
+The volume at 140000 is: 1.50101e+07
+The volume at 124000 is: 1.17368e+07
+The volume at 142000 is: 1.51282e+07
+The volume at 126000 is: 1.18196e+07
+The volume at 144000 is: 1.52451e+07
+The volume at 128000 is: 1.19073e+07
+The volume at 146000 is: 1.53598e+07
+The volume at 130000 is: 1.19871e+07
+The volume at 148000 is: 1.54705e+07
+The volume at 132000 is: 1.2078e+07
+The volume at 150000 is: 1.55845e+07
+The volume at 134000 is: 1.21754e+07
+The volume at 152000 is: 1.57075e+07
+The volume at 136000 is: 1.22721e+07
+The volume at 154000 is: 1.58248e+07
+The volume at 138000 is: 1.23858e+07
+The volume at 156000 is: 1.59387e+07
+The volume at 140000 is: 1.24857e+07
+The volume at 158000 is: 1.60505e+07
+The volume at 142000 is: 1.25804e+07
+The volume at 160000 is: 1.61643e+07
+The volume at 144000 is: 1.26797e+07
+The volume at 162000 is: 1.62792e+07
+The volume at 146000 is: 1.27795e+07
+The volume at 164000 is: 1.63992e+07
+The volume at 148000 is: 1.28814e+07
+The volume at 166000 is: 1.65321e+07
+The volume at 150000 is: 1.29696e+07
+The volume at 168000 is: 1.66709e+07
+The volume at 152000 is: 1.30477e+07
+The volume at 170000 is: 1.68143e+07
+The volume at 154000 is: 1.31195e+07
+The volume at 172000 is: 1.69665e+07
+The volume at 156000 is: 1.31846e+07
+The volume at 174000 is: 1.71157e+07
+The volume at 158000 is: 1.32494e+07
+The volume at 176000 is: 1.72719e+07
+The volume at 160000 is: 1.33147e+07
+The volume at 178000 is: 1.7442e+07
+The volume at 162000 is: 1.3376e+07
+The volume at 180000 is: 1.76204e+07
+The volume at 164000 is: 1.34421e+07
+The volume at 182000 is: 1.78038e+07
+The volume at 166000 is: 1.35138e+07
+The volume at 184000 is: 1.79797e+07
+The volume at 168000 is: 1.35835e+07
+The volume at 186000 is: 1.81674e+07
+The volume at 170000 is: 1.36461e+07
+The volume at 188000 is: 1.83578e+07
+The volume at 172000 is: 1.37071e+07
+The volume at 190000 is: 1.85365e+07
+The volume at 174000 is: 1.37715e+07
+The volume at 192000 is: 1.87034e+07
+The volume at 176000 is: 1.38362e+07
+The volume at 194000 is: 1.88734e+07
+The volume at 178000 is: 1.39027e+07
+The volume at 196000 is: 1.90426e+07
+The volume at 180000 is: 1.39717e+07
+The volume at 198000 is: 1.92073e+07
+The volume at 182000 is: 1.40431e+07
+The volume at 200000 is: 1.93684e+07
+The volume at 184000 is: 1.41079e+07
+The volume at 202000 is: 1.95155e+07
+The volume at 186000 is: 1.41788e+07
+The volume at 204000 is: 1.96523e+07
+The volume at 188000 is: 1.42441e+07
+The volume at 206000 is: 1.97889e+07
+The volume at 190000 is: 1.43058e+07
+The volume at 208000 is: 1.99293e+07
+The volume at 192000 is: 1.43705e+07
+The volume at 210000 is: 2.00675e+07
+The volume at 194000 is: 1.44572e+07
+The volume at 212000 is: 2.01993e+07
+The volume at 214000 is: 2.03362e+07
+The volume at 196000 is: 1.4547e+07
+The volume at 216000 is: 2.04848e+07
+The volume at 198000 is: 1.46378e+07
+The volume at 218000 is: 2.06382e+07
+The volume at 200000 is: 1.47504e+07
+The volume at 220000 is: 2.07842e+07
+The volume at 202000 is: 1.48624e+07
+The volume at 222000 is: 2.09275e+07
+The volume at 204000 is: 1.49767e+07
+The volume at 224000 is: 2.10612e+07
+The volume at 206000 is: 1.50894e+07
+The volume at 226000 is: 2.11836e+07
+The volume at 208000 is: 1.51907e+07
+The volume at 228000 is: 2.12979e+07
+The volume at 210000 is: 1.52803e+07
+The volume at 230000 is: 2.14069e+07
+The volume at 212000 is: 1.53595e+07
+The volume at 232000 is: 2.15134e+07
+The volume at 214000 is: 1.54302e+07
+The volume at 234000 is: 2.16241e+07
+The volume at 216000 is: 1.54922e+07
+The volume at 236000 is: 2.17341e+07
+The volume at 218000 is: 1.55476e+07
+The volume at 238000 is: 2.18426e+07
+The volume at 220000 is: 1.56055e+07
+The volume at 240000 is: 2.19558e+07
+The volume at 242000 is: 2.20765e+07
+The volume at 222000 is: 1.56646e+07
+The volume at 244000 is: 2.22118e+07
+The volume at 224000 is: 1.57202e+07
+The volume at 246000 is: 2.23547e+07
+The volume at 226000 is: 1.57731e+07
+The volume at 248000 is: 2.25098e+07
+The volume at 228000 is: 1.58245e+07
+The volume at 250000 is: 2.26753e+07
+The volume at 230000 is: 1.58705e+07
+The volume at 252000 is: 2.28354e+07
+The volume at 232000 is: 1.59144e+07
+The volume at 254000 is: 2.29902e+07
+The volume at 234000 is: 1.59612e+07
+The volume at 256000 is: 2.3141e+07
+The volume at 236000 is: 1.60134e+07
+The volume at 258000 is: 2.3291e+07
+The volume at 238000 is: 1.60802e+07
+The volume at 260000 is: 2.34424e+07
+The volume at 240000 is: 1.61585e+07
+The volume at 262000 is: 2.36057e+07
+The volume at 242000 is: 1.62449e+07
+The volume at 264000 is: 2.37663e+07
+The volume at 266000 is: 2.39239e+07
+The volume at 244000 is: 1.63217e+07
+The volume at 268000 is: 2.40808e+07
+The volume at 246000 is: 1.63933e+07
+The volume at 270000 is: 2.42397e+07
+The volume at 248000 is: 1.64637e+07
+The volume at 272000 is: 2.43973e+07
+The volume at 250000 is: 1.65323e+07
+The volume at 274000 is: 2.45547e+07
+The volume at 252000 is: 1.66056e+07
+The volume at 276000 is: 2.47301e+07
+The volume at 254000 is: 1.66844e+07
+The volume at 278000 is: 2.49048e+07
+The volume at 256000 is: 1.67561e+07
+The volume at 280000 is: 2.50767e+07
+The volume at 282000 is: 2.52413e+07
+The volume at 258000 is: 1.68192e+07
+The volume at 284000 is: 2.54128e+07
+The volume at 260000 is: 1.68763e+07
+The volume at 286000 is: 2.55827e+07
+The volume at 262000 is: 1.69273e+07
+The volume at 288000 is: 2.57445e+07
+The volume at 264000 is: 1.69744e+07
+The volume at 290000 is: 2.59127e+07
+The volume at 266000 is: 1.70211e+07
+The volume at 292000 is: 2.60893e+07
+The volume at 268000 is: 1.70705e+07
+The volume at 294000 is: 2.62776e+07
+The volume at 296000 is: 2.64848e+07
+The volume at 270000 is: 1.71139e+07
+The volume at 298000 is: 2.67055e+07
+The volume at 272000 is: 1.71538e+07
+The volume at 300000 is: 2.69486e+07
+Final volume is:2.70864e+07
+Interface is not moving.
+The volume at 274000 is: 1.71906e+07
+The volume at 276000 is: 1.7225e+07
+The volume at 278000 is: 1.72579e+07
+The volume at 280000 is: 1.72918e+07
+The volume at 282000 is: 1.73295e+07
+The volume at 284000 is: 1.73686e+07
+The volume at 286000 is: 1.74174e+07
+The volume at 288000 is: 1.74763e+07
+The volume at 290000 is: 1.75395e+07
+The volume at 292000 is: 1.7616e+07
+The volume at 294000 is: 1.76879e+07
+The volume at 296000 is: 1.77603e+07
+The volume at 298000 is: 1.78274e+07
+The volume at 300000 is: 1.78928e+07
+The volume at 302000 is: 1.79672e+07
+The volume at 304000 is: 1.80463e+07
+The volume at 306000 is: 1.81237e+07
+The volume at 308000 is: 1.81999e+07
+The volume at 310000 is: 1.82815e+07
+The volume at 312000 is: 1.83718e+07
+The volume at 314000 is: 1.84589e+07
+The volume at 316000 is: 1.85458e+07
+The volume at 318000 is: 1.86353e+07
+The volume at 320000 is: 1.87121e+07
+The volume at 322000 is: 1.87878e+07
+The volume at 324000 is: 1.88653e+07
+The volume at 326000 is: 1.896e+07
+The volume at 328000 is: 1.9077e+07
+The volume at 330000 is: 1.91803e+07
+The volume at 332000 is: 1.92852e+07
+The volume at 334000 is: 1.93749e+07
+The volume at 336000 is: 1.94556e+07
+The volume at 338000 is: 1.95252e+07
+The volume at 340000 is: 1.95917e+07
+The volume at 342000 is: 1.96588e+07
+The volume at 344000 is: 1.97248e+07
+The volume at 346000 is: 1.97889e+07
+The volume at 348000 is: 1.98499e+07
+The volume at 350000 is: 1.99183e+07
+The volume at 352000 is: 1.99967e+07
+The volume at 354000 is: 2.00733e+07
+The volume at 356000 is: 2.01441e+07
+The volume at 358000 is: 2.02095e+07
+The volume at 360000 is: 2.02723e+07
+The volume at 362000 is: 2.03403e+07
+The volume at 364000 is: 2.04243e+07
+The volume at 366000 is: 2.05183e+07
+The volume at 368000 is: 2.06111e+07
+The volume at 370000 is: 2.07107e+07
+The volume at 372000 is: 2.08154e+07
+The volume at 374000 is: 2.09153e+07
+The volume at 376000 is: 2.10251e+07
+The volume at 378000 is: 2.11508e+07
+The volume at 380000 is: 2.12839e+07
+The volume at 382000 is: 2.14322e+07
+The volume at 384000 is: 2.15881e+07
+The volume at 386000 is: 2.17409e+07
+The volume at 388000 is: 2.18987e+07
+The volume at 390000 is: 2.20608e+07
+The volume at 392000 is: 2.22212e+07
+The volume at 394000 is: 2.23704e+07
+The volume at 396000 is: 2.25155e+07
+The volume at 398000 is: 2.26558e+07
+The volume at 400000 is: 2.27937e+07
+The volume at 402000 is: 2.29185e+07
+The volume at 404000 is: 2.30399e+07
+The volume at 406000 is: 2.31499e+07
+The volume at 408000 is: 2.32573e+07
+The volume at 410000 is: 2.33615e+07
+The volume at 412000 is: 2.34795e+07
+The volume at 414000 is: 2.36167e+07
+The volume at 416000 is: 2.37554e+07
+The volume at 418000 is: 2.38833e+07
+The volume at 420000 is: 2.39997e+07
+The volume at 422000 is: 2.41038e+07
+The volume at 424000 is: 2.42142e+07
+The volume at 426000 is: 2.43262e+07
+The volume at 428000 is: 2.44304e+07
+The volume at 430000 is: 2.45321e+07
+The volume at 432000 is: 2.46398e+07
+The volume at 434000 is: 2.47397e+07
+The volume at 436000 is: 2.48409e+07
+The volume at 438000 is: 2.49349e+07
+The volume at 440000 is: 2.50263e+07
+The volume at 442000 is: 2.51141e+07
+The volume at 444000 is: 2.51981e+07
+The volume at 446000 is: 2.52709e+07
+The volume at 448000 is: 2.53403e+07
+The volume at 450000 is: 2.54138e+07
+The volume at 452000 is: 2.54871e+07
+The volume at 454000 is: 2.55566e+07
+The volume at 456000 is: 2.56217e+07
+The volume at 458000 is: 2.56873e+07
+The volume at 460000 is: 2.57479e+07
+The volume at 462000 is: 2.58102e+07
+The volume at 464000 is: 2.58768e+07
+The volume at 466000 is: 2.59391e+07
+The volume at 468000 is: 2.59947e+07
+The volume at 470000 is: 2.60488e+07
+The volume at 472000 is: 2.61076e+07
+The volume at 474000 is: 2.61684e+07
+The volume at 476000 is: 2.62375e+07
+The volume at 478000 is: 2.63292e+07
+The volume at 480000 is: 2.64392e+07
+The volume at 482000 is: 2.65556e+07
+The volume at 484000 is: 2.66807e+07
+The volume at 486000 is: 2.68213e+07
+The volume at 488000 is: 2.69716e+07
+Final volume is:2.70864e+07

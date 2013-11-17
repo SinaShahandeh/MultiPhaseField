@@ -1,0 +1,18 @@
+ 
+#!/bin/sh
+
+rm indexed.out
+## icc -O3 -openmp -o indexed.out main.cpp
+g++ main.cpp -o sorting.out
+echo "---new compilation has been done"
+
+dirstring="/media/disk/sim_res/2D/test/sorting/"
+mkdir $dirstring
+cp main.cpp $dirstring
+
+for Pz in 0
+  do
+    mkdir "$dirstring$Pz/" 
+    echo "running simulation for Pz=$Pz "
+    ./sorting.out "$dirstring$Pz/" $Pz
+ done

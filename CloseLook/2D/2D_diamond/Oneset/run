@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "Bash version ${BASH_VERSION}..."
+rm onset.out
+g++ -O4 main.cpp -o onset.out
+echo "new compilation has been done"
+## Pz will be divided by 1000 in the program
+Pz=(10 20 30 40 50)
+R=(100 50 45 40 35)
+dirstring="/media/disk/sim_res/2Dclose/diamond_Fric/Onset_m2_k2/"
+cp main.cpp $dirstring
+mkdir $dirstring
+## this is radius of the circle in pixel size
+for i in 0 1 2 3 4
+  do
+    mkdir $dirstring${R[i]}
+    echo "running simulation for r=${R[i]}"
+    ./onset.out ${R[i]} ${Pz[i]} $dirstring
+ done
+
+

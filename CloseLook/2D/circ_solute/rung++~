@@ -1,0 +1,20 @@
+ 
+#!/bin/sh
+
+rm a.out
+g++ -O4 main.cpp
+echo "---new compilation has been done"
+dirstring="/home/cenna/Results/2Dclose/circ_solute/circ_m4_k8/"
+mkdir $dirstring
+
+cp main.cpp $dirstring
+
+for b in 1000
+  do
+    mkdir $dirstring$b 
+    echo "running simulation for b=$b "
+    ./a.out $dirstring $b 20
+done
+done
+
+

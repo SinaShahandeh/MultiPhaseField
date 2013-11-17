@@ -1,0 +1,62 @@
+-------------- Inpput file for Recrystallization Simulations ------------
+
+Saving directory **********************:
+/home/magnetadmin/Documents/Results/Np_Solute/P1_m2_k4_r10/
+
+System size in x direction (grid points):
+140
+
+System size in y direction (grid points):
+140
+
+System size in z direction (grid points):
+140
+
+Delta x:
+0.5
+
+Threshold value for choosing active nodes:
+0.0000001
+
+Delta t:
+0.01
+
+Initiation time steps:
+500
+
+Total number of time steps to finish calculation:
+1000000
+
+Sequence of time steps which the results is written on hard disk:
+200
+
+Sequence of time steps which full eta and inds results is written on hard disk:
+200000
+
+Model parameter "L" (kinetic coefficient):
+1
+
+Model parameter "m" (height of the peak in the energy well):
+2
+
+Model parameter "kappa" (gradient coefficient):
+4
+
+Model parameter "epsilon" (for particle):
+10
+
+Particles radius (in pixel):
+20
+
+Particles fraction: 
+0
+
+Driving force for interface movement (Delta G):
+0
+
+Solute Drag Parameter a:
+0
+
+Solute Drag Parameter b:
+30
+

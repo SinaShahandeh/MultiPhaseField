@@ -1,0 +1,22 @@
+#!/bin/sh
+ 
+rm Nparticle.out
+# icpc -O3 -openmp -o Nparticle.out main.cpp
+# echo "---new compilation has been done"
+
+# compiling on magnetserver
+ source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+icpc -O3 -o Nparticle.out main.cpp
+# icpc -O3 -o Nparticle.out main.cpp
+#qsub run.pbs
+#mkdir $dirstring
+# 
+# $dirstring = "/home/magnetadmin/Documents/Results/3DClose/Np150_m1_k2_r10_fv-1_push300/"
+# cp main_BoundaryPush.cpp $dirstring
+# cp large_input $dirstring
+ 
+# if you want to run the compiled code without submitting to the qsub.
+#./sphere3D.out $dirstring
+# ./Nparticle.out Np50_m1_k2_r5_fv-1
+ ./Nparticle.out large_input
+# ./Nparticle.out small_input

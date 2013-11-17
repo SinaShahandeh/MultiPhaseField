@@ -1,0 +1,6 @@
+---new compilation has been done
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/Fric200_Pz0.015_m1_k2_t20000/': File exists
+./benchmark.out: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+---new compilation has been done
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/Fric200_Pz0.015_m1_k2_t20000/': File exists
+./benchmark.out: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory

@@ -1,0 +1,15 @@
+clear
+figure
+savedir='/media/disk/sim_res/DomeDrivingForce_solute_3/';
+savedir= [pwd '/']
+Mparam=linspace(100,100,1);
+for filenum=1:length(Mparam)
+    param=Mparam(filenum)
+    [InterfaceVel]=realtime_particle_friction_solute(param,filenum,savedir);
+    MInterfaceVel(filenum)=InterfaceVel;
+%     Mpp(filenum)=pp
+end
+figure
+plot(Mparam,MInterfaceVel)
+grid
+

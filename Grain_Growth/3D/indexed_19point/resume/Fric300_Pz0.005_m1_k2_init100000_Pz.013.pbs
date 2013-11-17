@@ -1,0 +1,31 @@
+#PBS -l walltime=7:00:00:00
+#PBS -l mem=12GB
+#PBS -l nodes=1:ppn=12
+#PBS -M ssina@interchange.ubc.ca
+#PBS -m bea
+#PBS -j oe
+#PBS -N F300_Pz0.005_100000
+
+cd $PBS_O_WORKDIR
+CURR_DIR=`pwd`
+USERID=`whoami`
+JOB_OUTPUT=RESULTS 
+echo 'Current working directory is "'$CURR_DIR'"'
+echo "Running on `hostname`"
+echo "Starting run at: `date`"
+
+jobname="Fric300_Pz0.005_m1_k2_init100000_Pz.013"
+dirscratch="/global/scratch/ssina/$jobname/"
+mkdir $dirscratch
+cp /global/scratch/ssina/Fric300_Pz0.013_m1_k2_init4000/Eta_*_100000* $dirscratch
+cp /global/scratch/ssina/Fric300_Pz0.013_m1_k2_init4000/Inds_*_100000* $dirscratch
+cd $dirscratch
+
+echo `pwd`
+cp $CURR_DIR/Friction.out $dirscratch
+cp $CURR_DIR/main.cpp  $dirscratch
+cp "$CURR_DIR/$jobname.txt"  $dirscratch 
+echo "$CURR_DIR/$jobname.txt"
+./Friction.out "$jobname.txt"
+
+echo "Job Finihed"

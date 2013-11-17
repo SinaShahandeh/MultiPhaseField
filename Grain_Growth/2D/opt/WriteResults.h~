@@ -1,0 +1,64 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <math.h>
+
+int WriteResults(double eta[], int mboxsize, int nboxsize,int p,int tn)
+{
+    ofstream myfile;
+  double *phi;
+  phi= new double[mboxsize*nboxsize];
+  int size=mboxsize*nboxsize;
+  int i,j,pnn,jn,pind;
+    // making the phi array
+    for (i=0;i<mboxsize;i++)
+    {
+      for (j=0;j<nboxsize;j++)
+      {
+        jn=j*mboxsize;
+        phi[i+jn]=0;
+        for (pind=0;pind<p;pind++)
+        {
+          pnn=pind*size;
+          phi[i+jn]=phi[i+jn]+eta[i+jn+pnn]*eta[i+jn+pnn];
+        }
+      }
+    }
+// writing
+
+      // make a string like "result_5.txt"
+      int n;
+      char filename[200];
+      n=sprintf (filename, "results/result_ %d .txt", tn);
+      myfile.open (filename);
+      for (i=0;i<mboxsize;i++)
+      {
+        for (j=0;j<nboxsize;j++)
+        {
+          myfile << phi[i+j*mboxsize] << "      "; 
+        }
+        myfile << "\n";
+      }
+      myfile.close();
+    /*
+    // make picture of phi
+    if  (tn % 100 ==0)
+    {
+      char filename[100];
+      n=sprintf (filename, "im_ %d .png", tn);
+      pngwriter png(mboxsize,nboxsize,1,filename); 
+      for (i=0;i<size-1;i++)
+      {
+        for (j=0;j<size-1;j++)
+        {
+          png.plot(i,j, phi[i][j], phi[i][j], phi[i][j]);
+  }
+  }
+  png.close()
+  }
+  */
+return(0);
+}

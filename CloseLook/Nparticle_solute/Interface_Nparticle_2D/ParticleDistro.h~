@@ -1,0 +1,10 @@
+
+#ifndef ParticleDistroDEF
+#define ParticleDistroDEF
+
+#include <math.h>
+#include "sphere.h"
+
+double *ParticleDistro(int, int, int, int, int);
+
+#endif

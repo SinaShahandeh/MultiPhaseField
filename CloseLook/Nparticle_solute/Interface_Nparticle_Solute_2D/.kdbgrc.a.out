@@ -1,0 +1,18 @@
+[Breakpoint 0]
+Enabled=true
+File=main.cpp
+Line=39
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=Np1000_m2_k4_r8_a2_b1000 100 0
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0

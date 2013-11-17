@@ -1,0 +1,53 @@
+-------------- Inpput file for Grain Growth Simulations ------------
+
+Saving directory **********************:
+/global/scratch/ssina/Fric300_Pz0.005_m1_k2_init100000_Pz.013/
+
+System size in x direction (grid points):
+300
+
+System size in y direction (grid points):
+300
+
+System size in z direction (grid points):
+300
+
+Delta x:
+1
+
+Threshold value for choosing active nodes:
+0.00001
+
+Delta t:
+0.1
+
+Initiation time steps:
+10
+
+Total number of time steps to finish calculation:
+3000001
+
+Sequence of time steps which the results is written on hard disk:
+2000
+
+Sequence of time steps which full eta and inds results is written on hard disk:
+10000
+
+Sequence of time steps which curvature data is written (Ktimestep):
+2000
+
+Model parameter "L" (kinetic coefficient):
+1
+
+Model parameter "m" (height of the peak in the energy well):
+1
+
+Model parameter "kappa" (gradient coefficient):
+2
+
+Pinning pressure:
+0.005
+
+Resume time step:
+100000
+

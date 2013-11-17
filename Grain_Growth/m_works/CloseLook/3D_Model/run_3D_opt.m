@@ -1,0 +1,170 @@
+clear all
+savedir='test02_';
+mkdir(savedir)
+% figure;
+% phase field parameters
+
+L=5*[1 1]*1e18;
+alpha=0.2*[1 1]*1e-18;
+beta=0.2*[1 1]*1e-18;
+gamma=0.2*1.5*[1]*1e-18;
+kappa=0.1*[1 1]*1e-18;
+epsilon=5e-18;
+G=[0 1]*1e-19;
+
+settings.L=L(1);
+settings.alpha=alpha(1);
+settings.beta=beta(1);
+settings.gamma=gamma(1);
+settings.kappa=kappa(1);
+settings.epsilon=epsilon(1);
+settings.DelG=G;
+settings.accuracy='low';
+
+% geometry settings
+p=2;
+global nboxsize mboxsize lboxsize
+global delx
+scale=3;
+mboxsize=25*scale;%y-direction
+nboxsize=20*scale;%x-direction
+lboxsize=20*scale;%z-direction
+delx=2/scale;
+% grainD=15*scale;
+% particle diameter
+particleDia=8;
+% starting position for interface
+
+x=0.10; % initial condition.
+xend=0.8; % ending potions of interface
+
+% time steps
+timestepn=3000;
+delt=0.05;
+
+%% curved interface
+% eta=zeros(mboxsize,nboxsize,lboxsize,p);
+% % making initial structure
+% eta(:,:,:,1)=spheregrain(mboxsize,nboxsize,lboxsize,nboxsize/2,3.4*mboxsize/4,lboxsize/2,grainD);
+% eta(:,:,:,2)=imcomplement(eta(:,:,:,1));
+% % ppf is phase variable representing particles
+% %particledistro(nboxsize,mboxsize,particles_number,radius)
+% [ppf,xparticle,yparticle,zparticle]=particledistro3D(nboxsize,mboxsize,lboxsize,1,particleDia*scale);
+
+%% straight interface
+% relative position of the interface with respect to one side of the domain
+
+eta=zeros(mboxsize,nboxsize,lboxsize,p);
+% making initial structure
+eta(1:fix(x*mboxsize),:,:,1)=ones(fix(x*mboxsize),nboxsize,lboxsize);
+eta(:,:,:,2)=imcomplement(eta(:,:,:,1));
+% ppf is phase variable representing particles
+%particledistro(nboxsize,mboxsize,particles_number,radius)
+[ppf,xparticle,yparticle,zparticle]=particledistro3D(nboxsize,mboxsize,lboxsize,1,particleDia*scale);
+
+
+%% savesettings
+save(strcat(pwd,'/',savedir,'/','settings.mat'))
+
+eta2=zeros(mboxsize,nboxsize,lboxsize,p); %pre-assignment
+se=strel('square',5);
+
+%% Time step loops
+for tn=1:1
+tic
+    for i=1:mboxsize
+        for j=1:nboxsize
+            for k=1:lboxsize
+                del2=1/delx^2*(0.5*(eta(indg(i+1,mboxsize),j,k,:)-2*eta(i,j,k,:)+eta(indg(i-1,mboxsize),j,k,:))...
+                    +0.25*(eta(indg(i+2,mboxsize),j,k,:)-2*eta(i,j,k,:)+eta(indg(i-2,mboxsize),j,k,:)))...
+                    +1/delx^2*(0.5*(eta(i,indg(j+1,nboxsize),k,:)-2*eta(i,j,k,:)+eta(i,indg(j-1,nboxsize),k,:))...
+                    +0.25*(eta(i,indg(j+2,nboxsize),k,:)-2*eta(i,j,k,:)+eta(i,indg(j-2,nboxsize),k,:)))...
+                    +1/delx^2*(0.5*(eta(i,j,indg(k+1,lboxsize),:)-2*eta(i,j,k,:)+eta(i,j,indg(k-1,lboxsize),:))...
+                    +0.25*(eta(i,j,indg(k+2,lboxsize),:)-2*eta(i,j,k,:)+eta(i,j,indg(k-2,lboxsize),:)));
+                sumterm=eta(i,j,k,:)*sum(eta(i,j,k,:).^2)-eta(i,j,k,:).^3;
+                detadtM=(-alpha.*reshape(eta(i,j,k,:),1,p)+beta.*reshape(eta(i,j,k,:),1,p).^3-kappa.*reshape(del2,1,p)+...
+                    2*epsilon.*reshape(eta(i,j,k,:),1,p)*ppf(i,j,k))+G;
+                detadt=-L.*(detadtM+2*gamma*reshape(sumterm,1,p));
+                eta2(i,j,k,:)=eta(i,j,k,:)+reshape(delt*detadt,1,1,1,2);
+                for pind=1:p
+                    if eta2(i,j,k,pind)>1
+                        eta2(i,j,k,pind)=1;
+                    end
+                    if eta2(i,j,k,pind)<0
+                        eta2(i,j,k,pind)=0;
+                    end
+                end
+            end
+        end
+    end
+    eta=eta2;
+    phi=sum(eta(:,:,:,1:p).^2,4);
+    phi=phi+ppf;
+    drawgrains3D(phi,xparticle,yparticle,zparticle,tn)
+    savegrains(eta,xparticle,yparticle,zparticle,tn,savedir)
+    toc
+end
+% optimized loop
+xend=fix(mboxsize*xend);
+tn=0;
+while eta(xend,1,1,1)<0.5 % when interface arrives to xend
+    tn=tn+1;
+    tic
+    xj=[];yi=[];zk=[];
+    for ni=1:lboxsize
+        [yii,xjj]=find(...
+            (phi(:,:,ni)>0.00001)==1);
+        %     [deletax deletay]=gradient(eta,delx,delx);
+        %     gradeta=sqrt(deletax.^2+deletay.^2);
+        %     E=-alpha/2*eta.^2+beta/4*eta.^4+kappa*gradeta.^2;
+        %     ME(tn)=sum(sum(E))/mboxsize/nboxsize;
+        %     drawE(rot90(rot90(E)),xparticle,yparticle,tn,eta,ppf)
+        zii=zeros(length(xjj),1)+ni;
+        xj=[xj; xjj];
+        yi=[yi; yii];
+        zk=[zk; zii];
+    end
+    for pi=1:length(yi)
+        i=yi(pi);j=xj(pi);k=zk(pi);
+        del2=1/delx^2*(0.5*(eta(indg(i+1,mboxsize),j,k,:)-2*eta(i,j,k,:)+eta(indg(i-1,mboxsize),j,k,:))...
+            +0.25*(eta(indg(i+2,mboxsize),j,k,:)-2*eta(i,j,k,:)+eta(indg(i-2,mboxsize),j,k,:)))...
+            +1/delx^2*(0.5*(eta(i,indg(j+1,nboxsize),k,:)-2*eta(i,j,k,:)+eta(i,indg(j-1,nboxsize),k,:))...
+            +0.25*(eta(i,indg(j+2,nboxsize),k,:)-2*eta(i,j,k,:)+eta(i,indg(j-2,nboxsize),k,:)))...
+            +1/delx^2*(0.5*(eta(i,j,indg(k+1,lboxsize),:)-2*eta(i,j,k,:)+eta(i,j,indg(k-1,lboxsize),:))...
+            +0.25*(eta(i,j,indg(k+2,lboxsize),:)-2*eta(i,j,k,:)+eta(i,j,indg(k-2,lboxsize),:)));
+        sumterm=eta(i,j,k,:)*sum(eta(i,j,k,:).^2)-eta(i,j,k,:).^3;
+        detadtM=(-alpha.*reshape(eta(i,j,k,:),1,p)+beta.*reshape(eta(i,j,k,:),1,p).^3-kappa.*reshape(del2,1,p)+...
+            2*epsilon.*reshape(eta(i,j,k,:),1,p)*ppf(i,j,k))+G;
+        detadt=-L.*(detadtM+2*gamma*reshape(sumterm,1,p));
+        eta2(i,j,k,:)=eta(i,j,k,:)+reshape(delt*detadt,1,1,1,2);
+        for pind=1:p
+            if eta2(i,j,k,pind)>1
+                eta2(i,j,k,pind)=1;
+            end
+            if eta2(i,j,k,pind)<0
+                eta2(i,j,k,pind)=0;
+            end
+        end
+    end
+    eta=eta2;
+    
+    [deletax1 deletay1 deletaz1]=gradient(eta(:,:,:,1),delx,delx,delx);
+    [deletax2 deletay2 deletaz2]=gradient(eta(:,:,:,2),delx,delx,delx);
+    phi=(abs(deletax1)+abs(deletay1)+abs(deletaz1)+abs(deletax2)+...
+        abs(deletay2)+abs(deletaz2));
+    
+%     phi=sum(eta(:,:,:,1:p).^2,4);
+    % adding ppf to the phi to make particles positions to 1 inorder to
+    % make mapping more clear to see it dosen't do anything with the matrix
+%     phi=phi+ppf;
+    drawgrains3D(phi,xparticle,yparticle,zparticle,tn)
+    savegrains(eta,xparticle,yparticle,zparticle,tn,savedir)
+    
+    % calculate energy
+    [ME,E]=calculateE_3D(eta,ppf,delx,settings);
+    toc
+    
+end
+%
+
+

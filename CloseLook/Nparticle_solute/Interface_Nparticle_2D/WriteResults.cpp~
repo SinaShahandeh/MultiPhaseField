@@ -1,0 +1,7 @@
+
+int WriteResults(double* phi[], int mboxsize, int nboxsize,int p,int tn)
+{
+
+  
+return 0;
+}

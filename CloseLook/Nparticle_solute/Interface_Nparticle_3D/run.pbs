@@ -1,0 +1,26 @@
+#PBS -l walltime=1:00:00:00
+#PBS -l mem=5GB
+#PBS -l nodes=1:ppn=8
+#PBS -M ssina@interchange.ubc.ca
+#PBS -m bea
+#PBS -j oe
+#PBS -N Np300_m1_k2_r5_fv0.1
+
+cd $PBS_O_WORKDIR
+CURR_DIR=`pwd`
+USERID=`whoami`
+JOB_OUTPUT=RESULTS 
+echo 'Current working directory is "'$CURR_DIR'"'
+echo "Running on `hostname`"
+echo "Starting run at: `date`"
+
+jobname="Np300_m1_k2_r5_fv0.1"
+dirscratch="/home/magnetadmin/Documents/Results/3DClose/$jobname/"
+mkdir $dirscratch
+cd $dirscratch
+echo `pwd`
+cp $CURR_DIR/Nparticle.out $dirscratch
+cp $CURR_DIR/main.cpp  $dirscratch
+cp "$CURR_DIR/$jobname.txt"  $dirscratch 
+
+./Nparticle.out "$jobname.txt"

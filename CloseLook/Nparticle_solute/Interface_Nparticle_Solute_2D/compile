@@ -1,0 +1,39 @@
+#!/bin/sh
+ 
+rm NpSolute.out
+# icpc -O3 -openmp -o Nparticle.out main.cpp
+# echo "---new compilation has been done"
+
+# compiling on magnetserver
+# source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+icpc -O3 -o NpSolute.out main.cpp
+
+#qsub run.pb	s
+#dirstring="/tmp/cenna/sphere3D_Pz0/"
+#mkdir $dirstring
+# 
+#cp main.cpp $dirstring
+ 
+# if you want to run the compiled code without submitting to the qsub.
+dirstring=Np1000_m2_k4_r16_a1_b1000
+mkdir /home/magnetadmin/Documents/Results/Np_Solute/$dirstring
+
+var1=350
+./NpSolute.out $dirstring $var1 0
+
+var1=250
+./NpSolute.out $dirstring $var1 0
+
+var1=150
+./NpSolute.out $dirstring $var1 0
+
+var1=120
+./NpSolute.out $dirstring $var1 0
+
+var1=80
+./NpSolute.out $dirstring $var1 0
+
+var1=40
+./NpSolute.out $dirstring $var1 0
+
+

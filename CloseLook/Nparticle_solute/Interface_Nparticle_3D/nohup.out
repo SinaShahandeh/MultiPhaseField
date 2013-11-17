@@ -1,0 +1,197 @@
+./compile: 4: icpc: not found
+./compile: 20: ./Nparticle.out: not found
+rm: cannot remove `Nparticle.out': No such file or directory
+mkdir: cannot create directory `/home/magnetadmin/Documents/Results/Np_Solute/P1_m2_k4_r10/200/': File exists
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/Np_Solute/P1_m2_k4_r10/200/
+System size in x direction (grid points):140
+System size in y direction (grid points):140
+System size in z direction (grid points):140
+Delta x:0.5
+Threshold value for choosing active nodes:1e-07
+Delta t:0.01
+Initiation time steps:500
+Total number of time steps to finish calculation:1000000
+Sequence of time steps which the results is written on hard disk:200
+Sequence of time steps which full eta and inds results is written on hard disk:200000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):2
+Model parameter "kappa" (gradient coefficient):4
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):20
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.2
+Solute Drag Parameter a:0
+Solute Drag Parameter b:30
+particles fraction=0.05
+particles number=4
+Actual particles volume fraction = 0.0466246
+Initialization ended.
+time required for 10 time steps:420.81seconds. 
+Initial volume is:289297
+The volume at 200 is: 283059
+The volume at 400 is: 277543
+The volume at 600 is: 272184
+The volume at 800 is: 266955
+The volume at 1000 is: 261833
+The volume at 1200 is: 256798
+The volume at 1400 is: 251835
+The volume at 1600 is: 246926
+The volume at 1800 is: 242058
+The volume at 2000 is: 237216
+The volume at 2200 is: 232386
+The volume at 2400 is: 227557
+The volume at 2600 is: 222717
+The volume at 2800 is: 217852
+The volume at 3000 is: 212944
+The volume at 3200 is: 207964
+The volume at 3400 is: 202899
+The volume at 3600 is: 197814
+The volume at 3800 is: 192711
+The volume at 4000 is: 187575
+The volume at 4200 is: 182395
+The volume at 4400 is: 177160
+The volume at 4600 is: 171859
+The volume at 4800 is: 166478
+The volume at 5000 is: 160997
+The volume at 5200 is: 155395
+The volume at 5400 is: 149687
+The volume at 5600 is: 143899
+The volume at 5800 is: 138000
+The volume at 6000 is: 132061
+The volume at 6200 is: 126151
+The volume at 6400 is: 120255
+The volume at 6600 is: 114361
+The volume at 6800 is: 108452
+The volume at 7000 is: 102464
+The volume at 7200 is: 96294.7
+The volume at 7400 is: 90135.3
+The volume at 7600 is: 84058.7
+The volume at 7800 is: 78073.5
+The volume at 8000 is: 72179.1
+The volume at 8200 is: 66370.8
+The volume at 8400 is: 60642
+Terminated
+./compile: 21: 0: not found
+./compile: 4: icpc: not found
+./compile: 20: ./Nparticle.out: not found
+rm: cannot remove `Nparticle.out': No such file or directory
+Successfully opened the fileReading input.txt file:Saving directory **********************:Data will be saved in this Directory:---->/home/magnetadmin/Documents/Results/Np_Solute/Np300_m2_k4_r5_fv0.05/200/
+System size in x direction (grid points):300
+System size in y direction (grid points):300
+System size in z direction (grid points):300
+Delta x:0.5
+Threshold value for choosing active nodes:1e-07
+Delta t:0.01
+Initiation time steps:300
+Total number of time steps to finish calculation:1000000
+Sequence of time steps which the results is written on hard disk:200
+Sequence of time steps which full eta and inds results is written on hard disk:200000
+Model parameter "L" (kinetic coefficient):1
+Model parameter "m" (height of the peak in the energy well):2
+Model parameter "kappa" (gradient coefficient):4
+Model parameter "epsilon" (for particle):10
+Particles radius (in pixel):10
+Particles fraction: 0.05
+Driving force for interface movement (Delta G):0.2
+Solute Drag Parameter a:0
+Solute Drag Parameter b:30
+particles fraction=0.05
+particles number=322
+Actual particles volume fraction = 0.0466728
+Initialization ended.
+time required for 10 time steps:2386.31seconds. 
+Initial volume is:2.84141e+06
+The volume at 200 is: 2.80288e+06
+The volume at 400 is: 2.7781e+06
+The volume at 600 is: 2.75381e+06
+The volume at 800 is: 2.72965e+06
+The volume at 1000 is: 2.70539e+06
+The volume at 1200 is: 2.68089e+06
+The volume at 1400 is: 2.6564e+06
+The volume at 1600 is: 2.63184e+06
+The volume at 1800 is: 2.60737e+06
+The volume at 2000 is: 2.58285e+06
+The volume at 2200 is: 2.558e+06
+The volume at 2400 is: 2.53275e+06
+The volume at 2600 is: 2.50733e+06
+The volume at 2800 is: 2.48204e+06
+The volume at 3000 is: 2.45715e+06
+The volume at 3200 is: 2.4326e+06
+The volume at 3400 is: 2.40795e+06
+The volume at 3600 is: 2.38311e+06
+The volume at 3800 is: 2.35794e+06
+The volume at 4000 is: 2.33265e+06
+The volume at 4200 is: 2.30759e+06
+The volume at 4400 is: 2.28251e+06
+The volume at 4600 is: 2.25728e+06
+The volume at 4800 is: 2.23197e+06
+The volume at 5000 is: 2.20655e+06
+The volume at 5200 is: 2.18096e+06
+The volume at 5400 is: 2.15535e+06
+The volume at 5600 is: 2.12985e+06
+The volume at 5800 is: 2.10448e+06
+The volume at 6000 is: 2.07941e+06
+The volume at 6200 is: 2.05453e+06
+The volume at 6400 is: 2.02985e+06
+The volume at 6600 is: 2.00537e+06
+The volume at 6800 is: 1.9809e+06
+The volume at 7000 is: 1.95647e+06
+The volume at 7200 is: 1.93213e+06
+The volume at 7400 is: 1.90776e+06
+The volume at 7600 is: 1.88301e+06
+The volume at 7800 is: 1.85771e+06
+The volume at 8000 is: 1.83164e+06
+The volume at 8200 is: 1.8052e+06
+The volume at 8400 is: 1.77893e+06
+The volume at 8600 is: 1.75311e+06
+The volume at 8800 is: 1.72797e+06
+The volume at 9000 is: 1.70328e+06
+The volume at 9200 is: 1.67866e+06
+The volume at 9400 is: 1.6542e+06
+The volume at 9600 is: 1.6301e+06
+The volume at 9800 is: 1.60622e+06
+The volume at 10000 is: 1.58239e+06
+The volume at 10200 is: 1.55878e+06
+The volume at 10400 is: 1.535e+06
+The volume at 10600 is: 1.51088e+06
+The volume at 10800 is: 1.48637e+06
+The volume at 11000 is: 1.46142e+06
+The volume at 11200 is: 1.43632e+06
+The volume at 11400 is: 1.41129e+06
+The volume at 11600 is: 1.38646e+06
+The volume at 11800 is: 1.36157e+06
+The volume at 12000 is: 1.33641e+06
+The volume at 12200 is: 1.31079e+06
+The volume at 12400 is: 1.28539e+06
+The volume at 12600 is: 1.26023e+06
+The volume at 12800 is: 1.23518e+06
+The volume at 13000 is: 1.21022e+06
+The volume at 13200 is: 1.18533e+06
+The volume at 13400 is: 1.16054e+06
+The volume at 13600 is: 1.13579e+06
+The volume at 13800 is: 1.11084e+06
+The volume at 14000 is: 1.08573e+06
+The volume at 14200 is: 1.06069e+06
+The volume at 14400 is: 1.03595e+06
+The volume at 14600 is: 1.01141e+06
+The volume at 14800 is: 986905
+The volume at 15000 is: 962406
+The volume at 15200 is: 937694
+The volume at 15400 is: 912825
+The volume at 15600 is: 887994
+The volume at 15800 is: 863122
+The volume at 16000 is: 837913
+The volume at 16200 is: 812329
+The volume at 16400 is: 786785
+The volume at 16600 is: 761518
+The volume at 16800 is: 736365
+The volume at 17000 is: 711527
+The volume at 17200 is: 687129
+The volume at 17400 is: 663155
+The volume at 17600 is: 639286
+The volume at 17800 is: 615577
+The volume at 18000 is: 591987
+The volume at 18200 is: 568441
+The volume at 18400 is: 544843
+The volume at 18600 is: 521143
+Final volume is:506183

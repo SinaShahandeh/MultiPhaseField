@@ -1,0 +1,19 @@
+#!/bin/sh
+ 
+rm Nparticle.out
+# icpc -O3 -openmp -o Nparticle.out main.cpp
+# echo "---new compilation has been done"
+
+# compiling on magnetserver
+# source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+g++ -O3 -o Nparticle.out main.cpp
+
+#qsub run.pb	s
+#dirstring="/tmp/cenna/sphere3D_Pz0/"
+#mkdir $dirstring
+# 
+#cp main.cpp $dirstring
+ 
+# if you want to run the compiled code without submitting to the qsub.
+#./sphere3D.out $dirstring
+./Nparticle.out 
