@@ -1,0 +1,18 @@
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.exe.config
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.csprojResolveAssemblyReference.cache
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.Form1.resources
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.Properties.Resources.resources
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.csproj.GenerateResource.Cache
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.exe
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.pdb
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.exe
+c:\users\sina\documents\visual studio 2013\Projects\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.pdb
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.exe.config
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.exe
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.pdb
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.csprojResolveAssemblyReference.cache
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.Form1.resources
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.Properties.Resources.resources
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\Debug\CMPE_2D_GG.csproj.GenerateResource.Cache
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.exe
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\Debug\CMPE_2D_GG.pdb

@@ -1,0 +1,12 @@
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\x64\Release\CMPE_2D_GG.exe.config
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\x64\Release\CMPE_2D_GG.exe
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\x64\Release\CMPE_2D_GG.pdb
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.Form1.resources
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.Properties.Resources.resources
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.csproj.GenerateResource.Cache
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.exe
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.pdb
+C:\Users\Sina\Dropbox\PhD\Codes\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.csprojResolveAssemblyReference.cache
+C:\Users\Sina\Documents\GitHub\MultiPhaseField\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\bin\x64\Release\CMPE_2D_GG.exe.config
+C:\Users\Sina\Documents\GitHub\MultiPhaseField\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.exe
+C:\Users\Sina\Documents\GitHub\MultiPhaseField\CMPE_Phase_Field\CMPE_2D_GG\CMPE_2D_GG\obj\x64\Release\CMPE_2D_GG.pdb
