@@ -1,0 +1,52 @@
+-------------- Inpput file for Grain Growth Simulations ------------
+
+Saving directory **********************:
+/home/sina/Win/Users/Sina/Dropbox/PhD/Codes/Grain_Growth/3D/indexed_19point/resume/
+
+Line 06-System size in x direction (grid points):
+256
+
+Line 09-System size in y direction (grid points):
+256
+
+Line 12-System size in z direction (grid points):
+256
+
+Line 15-Delta x:
+1
+
+Line 18-Threshold value for choosing active nodes:
+0.00001
+
+Line 21-Delta t:
+0.1
+
+Line 24-Initiation time steps:
+10
+
+Line 27-Total number of time steps to finish calculation:
+3000001
+
+Line 30-Sequence of time steps which the results is written on hard disk:
+10000
+
+Line 33-Sequence of time steps which full eta and inds results is written on hard disk:
+10000
+
+Line 36-Sequence of time steps which curvature data is written (Ktimestep):
+2000
+
+Line 39-Model parameter "L" (kinetic coefficient):
+1
+
+Line 42-Model parameter "m" (height of the peak in the energy well):
+1
+
+Line 45-Model parameter "kappa" (gradient coefficient):
+2
+
+Line 48-Pinning pressure:
+0.00
+
+Line 51- Resume time step:
+0

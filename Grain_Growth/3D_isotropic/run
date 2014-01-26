@@ -1,0 +1,20 @@
+ 
+#!/bin/sh
+
+# Removing oler version of the executable if it is there.
+rm GGSim.out
+
+# Uncomment these two lines to use Intel compiler if installed
+#source /opt/intel/Compiler/11.1/073/bin/iccvars.sh intel64
+#icpc -O3 -openmp -o GGSim.out main.cpp
+
+# Uncomment this line if you use gnu g++ compiler
+#g++ -O3  -fopenmp -o GGSim.out main.cpp
+g++ -O3  -o GGSim.out main.cpp
+
+# Specify the place of input file. If its the same as the run file then just leave it as input.txt.
+dirstring="input.txt"
+
+# Running the compiled executable
+./GGSim.out $dirstring
+ 
