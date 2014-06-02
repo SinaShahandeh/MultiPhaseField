@@ -3,15 +3,15 @@ blah blah
 
 %% 3D slice full reading (phi)
 clear
-tn=8000
+tn=500
 ni=0;
 %  figure
 %  for tn=[12000:1000:62000]
 ni=ni+1;
-savedir='/home/magnetadmin/Documents/Results/3D_hex/Np300_m1_k2_r10_fv0.05_hex380_2/';
+savedir='C:\Users\Sina\Documents\GitHub\MultiPhaseField\Grain_Growth\3D_anisotropic\';
 phidata=importdata([savedir 'Fullres_' num2str(tn) '.txt']);
 mboxsize=size(phidata,2);nboxsize=sqrt(size(phidata,1));lboxsize=nboxsize;
-mboxsize=size(phidata,2);nboxsize=300;lboxsize=size(phidata,1)/nboxsize;
+mboxsize=size(phidata,2);nboxsize=500;lboxsize=size(phidata,1)/nboxsize;
 
 % x=[0:nboxsize-1]*delx;/home/cenna/Results/test/EngDen_900.txt
 % y=[0:mboxsize-1]*delx;
@@ -28,21 +28,21 @@ for m=1:mboxsize
 end
 clear phidata;
 
-% figure; 
+ figure; 
 % slice(phi,[1 (mboxsize)],[1 (nboxsize)],[1 (lboxsize)]);colormap gray; shading interp; axis equal; axis off;  title (['time step = ' num2str(tn) ]) % colorbar; title ([savedir ' (tn=' num2str(tn) ')'])
 % slice(phi,[1 ],[1 ],[lboxsize]);colormap gray; shading interp; axis equal; box on;  title (['time step = ' num2str(tn) ]) % colorbar; title ([savedir ' (tn=' num2str(tn) ')'])
 %slice(phi,[ (nboxsize)],[ (mboxsize)],[1]); axis equal; shading interp; box on; title (['time step = ' num2str(tn) ]) % colorbar; title ([savedir ' (tn=' num2str(tn) ')'])
  % axis([1 (mboxsize) 1 (nboxsize) 1 (lboxsize)])
-%  surf(phi(:,:,(lboxsize)/2)); view([0 -90]);colormap gray; shading interp; axis equal; box on; axis off;title (['time step = ' num2str(tn) ])
+  imshow(phi(:,:,3)); view([0 -90]);colormap gray; shading interp; axis equal; box on; axis off;title (['time step = ' num2str(tn) ])
 % surf(reshape(phi(:,1,:),mboxsize,lboxsize)); view([0 -90]);colormap gray; shading interp; axis equal; box on; axis off;title (['time step = ' num2str(tn) ])
 % isosurface(phi,0.6);axis equal; box off; axis([1 nboxsize 1 mboxsize 1 lboxsize]); hold off
 %   mkdir([savedir 'phi/']);
 %   print([savedir 'phi/' num2str(ni) '.png'],'-dpng','-r200',gcf)
 %   clf
 %     end
-   sliceomatic(phi)
+%   sliceomatic(phi)
 % plot([0.5:0.5:35], phi(:,1,1))
-
+view([0 90])
 %%
 phidata=importdata([savedir 'Eta_' num2str(tn) '.txt']);
 mboxsize=size(phidata,2);nboxsize=100;lboxsize=size(phidata,1)/nboxsize;
